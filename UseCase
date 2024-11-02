@@ -1,0 +1,24 @@
+2. Product Review Aggregator and Sentiment Classifier --- Abdullah
+
+   Objective: Aggregate and classify sentiments in reviews for a given product across multiple e-commerce sites.
+   Tools Used: BeautifulSoup, Selenium, Sklearn, FlashText, NLTK, Flair.
+   Approach:
+        Use BeautifulSoup with Selenium for dynamic pages to scrape reviews from various e-commerce platforms.
+        Extract core entities (product name, model, keywords) using FlashText for entity recognition.
+        Tokenize and preprocess reviews using NLTK to remove noise.
+        Use Flair for aspect-based sentiment classification (e.g., identifying sentiments related to product quality, delivery, price).
+   Train a custom sentiment classifier on labeled data using Sklearn to identify fine-grained sentiments.
+   Example Output: A CSV file with review data, sentiment labels, and entity-specific sentiments (e.g., “battery life” or “durability”).
+
+
+
+
+
+
+10. Scraping Restaurant Data for Reviews and Ratings -- Gayatri
+Objective: Collect restaurant names, locations, ratings, and reviews.
+Data Types: Text, ratings (numeric), URLs (restaurant links).
+Approach:
+Scrape listings and reviews using BeautifulSoup, focusing on names, ratings, and text reviews.
+If data loads dynamically, use Selenium to scrape or find API endpoints.
+Example Site: Yelp (using API for legal access if available).
